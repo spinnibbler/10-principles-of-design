@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+    url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+    url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../fonts/lato-italic-webfont.woff2') format('woff2'),
+    url('../fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('../fonts/lato-lightitalic-webfont.woff2') format('woff2'),
+    url('../fonts/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'latoregular', Arial, sans-serif;
+}
+
+h1, h2, p {
+    text-shadow: 1px 1px 10px rgba(90, 90, 90, 0.51);
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-transition: color 90ms;
+    -moz-transition: color 90ms;
+    -o-transition: color 90ms;
+    transition: color 90ms;
+}
+
+a:hover {
+    color: rgb(135, 135, 135);
+    text-decoration: none;
+    -webkit-transition: color 90ms;
+    -moz-transition: color 90ms;
+    -o-transition: color 90ms;
+    transition: color 90ms;
+}
+
+header {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.81);
+    position: fixed;
+    width: 100%;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header .container .identity a {
+    font-family: 'latoregular';
+    font-size: 18px;
+    float: left;
+    margin-top: 15px;
+}
+
+header .container .identity a span {
+    font-family: 'latolight';
+}
+
+h1 {
+    font-family: 'playfair_displaybold';
+    font-size: 42px;
+    width: 558px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 48px;
+    text-shadow: 1px 1px 10px rgba(90, 90, 90, 0.7);
+    padding-top: 115px;
+    padding-bottom: 25px;
+}
+
+p {
+    font-size: 14px;
+    width: 456px;
+    text-shadow: 1px 1px 10px rgba(90, 90, 90, 0.7);
+}
+
+footer {
+    background-color: #131313;
+    height: 50px;
+    color: white;
+    text-shadow: none;
+}
+
+footer .container {
+    padding-top: 20px;
+}
+
+footer .container p {
+    opacity: .5;
+}
+
+cite {
+    display: block;
+}
+
+#intro {
+    color: black;
+}
+
+#intro h1 {
+    font-size: 60px;
+    width: 390px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 18px;
+    width: 390px;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.rightalign p, .rightalign h1 {
+    float: right;
+}
+
+/*.rightalign h1 {
+    float: right;
+}*/
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principle {
+    height: 700px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+    height: 300px;
+    background-color: #252525;
+    color: white;
+    font-size: 24px;
+}
+
+.quote p {
+    font-family: 'latoitalic';
+    font-size: 24px;
+}
+
+.quote cite {
+    font-family: 'latolight_italic';
+    float: right;
+}
+
+#intro > div {
+    padding-top: 200px;
+}
+
+#intro {
+    background-size: cover;
+    background-image: url("../images/intro.jpg");
+}
+
+#quote {
+    padding-top: 100px;
+    margin-right: 138px;
+    margin-left: 138px;
+}
+
+#one {
+    background-image: url("../images/principle1@1x.jpg");
+}
+
+#two {
+    background-image: url("../images/p2.jpg");
+}
+
+#three {
+    background-image: url("../images/p3.jpg");
+}
+
+#four {
+    background-image: url("../images/p4.jpg");
+}
+
+#five {
+    background-image: url("../images/p5.jpg");
+}
+
+#six {
+    background-image: url("../images/p6.jpg");
+}
+
+#seven {
+    background-image: url("../images/p7.jpg");
+}
+
+#eight {
+    background-image: url("../images/p8.jpg");
+}
+
+#nine {
+    background-image: url("../images/p9.jpg");
+}
+
+#ten {
+    background-image: url("../images/p10.jpg");
+}
+
+#four, #eight {
+    color: black;
+}
+
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px) {
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    .principle {
+        height: 500px;
+    }
+
+    .container {
+        width: 87.5%; /* 280 pixels at a 320 pixel screen width (iPhone 3 / 4 / 5) */
+    }
+
+    h1, p, #intro, #intro p, #intro h1 {
+        width: 100%;
+    }
+
+    #intro h1 {
+        margin-bottom: 0px;
+    }
+
+    #intro {
+        height: auto;
+        padding-bottom: 20px;
+        background-image: none;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    header {
+        height: 97px;
+    }
+
+    header .container nav {
+        float: none;
+    }
+
+    header .container {
+        text-align: center;
+        padding-top: 20px;
+
+    }
+
+    header .container .identity a {
+        font-size: 14px;
+        float: none;
+    }
+
+    .quote cite {
+        font-family: 'latolight_italic';
+        float: none;
+    }
+
+    #quote {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #quote p {
+        margin-bottom: 20px;
+    }
+
+    #intro > div {
+        padding-top: 0px;
+    }
+
+}
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+    }
+
+    img {
+        display: none;
+    }
+}
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1024px) {
+    .container {
+        /*width:95.5%;*/
+        width: 978px;
+    }
+
+    img {
+        display: none;
+    }
+}
